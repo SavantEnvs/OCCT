@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<document format="XmlOcaf" xmlns="http://www.opencascade.org/OCAF/XML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opencascade.org/OCAF/XML http://www.opencascade.org/OCAF/XML/XmlOcaf.xsd">
+<info date="2026-11-19" schemav="0" DocVersion="11"><iitem>STORAGE_VERSION: PCDM_ReadWriter_1</iitem><iitem>REFERENCE_COUNTER: 0</iitem><iitem>MODIFICATION_COUNTER: 1</iitem></info>
+<comments/>
+<label tag="0">
+<TDataStd_Name id="1">seed</TDataStd_Name>
+<TDataStd_Integer id="2" intattr="42"/>
+<label tag="1"><TDataStd_Real id="3" realattr="3.5"/></label>
+</label>
+<shapes/>
+</document>

@@ -1,0 +1,10 @@
+project: savantenvs/OCCT
+target: occt_shapefix
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/occt_shapefix/testsuite
+
+cmds:
+  - cmd: /mayhem/occt_shapefix
+    libfuzzer: true
+    timeout: 30
