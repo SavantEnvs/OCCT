@@ -1,0 +1,10 @@
+project: savantenvs/OCCT
+target: occt_brep_mesh
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/occt_brep_mesh/testsuite
+
+cmds:
+  - cmd: /mayhem/occt_brep_mesh
+    libfuzzer: true
+    timeout: 30

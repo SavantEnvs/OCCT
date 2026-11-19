@@ -1,0 +1,10 @@
+project: savantenvs/OCCT
+target: occt_deconf_load
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/occt_deconf_load/testsuite
+
+cmds:
+  - cmd: /mayhem/occt_deconf_load
+    libfuzzer: true
+    timeout: 30
